@@ -8,7 +8,7 @@ python read_xml.py example/haarcascade_frontalface_default.xml
 Understanding the xml file:
 
 Example:
-code()
+```
 <stages>
     <_>
       <maxWeakCount>9</maxWeakCount>
@@ -28,12 +28,12 @@ code()
 .
 .
 </stages>
-
+```
 The given stage has 9 weak classifiers and the stage threshold is as given.
 Format of internal node: <left_leaf_label, right_leaf_label, feature_index, feature_threshold>
 Format of leafvalues corresponding to the internal node: <left_leaf_value_to_add, right_leaf_value_to_add>
 
-code()
+```
 <features>
 <_>
       <rects>
@@ -53,7 +53,7 @@ code()
 .
 .
 </features>
-
+```
 The feature index in internalnode corresponds to the rects in features element in the order given.
 Format of rect element : <color_block> <color_block> ...
 Format of <_>: <top_left_position_x, top_left_position_y, block_width, block_height, block_weight>
