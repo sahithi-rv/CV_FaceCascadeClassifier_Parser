@@ -8,6 +8,7 @@ python read_xml.py example/haarcascade_frontalface_default.xml
 Understanding the xml file:
 
 Example:
+code()
 <stages>
     <_>
       <maxWeakCount>9</maxWeakCount>
@@ -32,6 +33,7 @@ The given stage has 9 weak classifiers and the stage threshold is as given.
 Format of internal node: <left_leaf_label, right_leaf_label, feature_index, feature_threshold>
 Format of leafvalues corresponding to the internal node: <left_leaf_value_to_add, right_leaf_value_to_add>
 
+code()
 <features>
 <_>
       <rects>
